@@ -51,6 +51,7 @@ ul {
 
 .btn:hover {
 	transform: scale(0.98); /* resize button on hover */
+	color: red;
 }
 
 .primary-text {

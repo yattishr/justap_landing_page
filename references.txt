@@ -1,0 +1,19 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
+
+https://www.w3schools.com/htmL/html_css.asp
+
+https://www.w3schools.com/tags/tag_span.asp
+
+Customers can start
+shopping by tapping their
+smartphones against
+specially-coded NFC
+stickers embedded in price
+labels on Electronic Shelf
+Labels (ESL), shelf edges or
+even on a product itself.
+Items are instantly loaded
+into the shopper’s (virtual)
+basket and paid for securely
+via the app or by tapping a
+checkout point.
