@@ -202,7 +202,8 @@ ul {
 @media(max-width: 700px) {
     .section-top .content,
     .section-stream .play,
-    .section-stream .content {
+    .section-stream .content,
+    .section-contactus {
         position: static;
         width: 100%;
     }
@@ -220,11 +221,11 @@ ul {
         font-size: 45px;
     }
 
-    .section-stream {
+    .section-stream, .section-contactus {
         min-height: 400px;
     }
 
-    .section-stream .play {
+    .section-stream .play, .section-contactus {
         width: 50%;
         display: block;
         margin: 30px auto;
