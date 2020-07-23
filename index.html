@@ -13,9 +13,10 @@
 <body>
     <section class="section section-top">
         <div class="content rellax" data-rellax-speed="5">
+            <!-- <h1><span style="color: #f5c42f">jus</span><span style="color:blue">tap</span></h1> -->
             <h1><span style="color: #f5c42f">tap. </span><span style="color:blue">scan.</span> <span style="color: #f5c42f">pay.</span></h1>
-            <h3 style="color:red;">redefine. shopping. experience. play.</h3>
-            <a href="#" class="btn">Learn More</a>
+            <h3 style="color: white;">redefine. <span style="color:blue">shopping</span>. experience. <span style="color: #f5c42f">play.</span></h3>
+            <a href="#section-grid" class="btn">Learn More</a>
         </div>
     </section>
     <section class="section section-stream">
@@ -62,22 +63,55 @@
         <div class="rellax" data-rellax-speed="1" data-rellax-xs-speed="3">
             <i class="fas fa-podcast fa-3x secondary-text"></i>
             <h2>tap<span class="secondary-text dot">.</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod reiciendis molestias dolor
-                labore perspiciatis debitis cumque atque. Esse, labore.</p>                            
+            <p>tap your mobile device once on a bar-coded label or an NFC sticker</p>                            
         </div>
         <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
             <i class="fas fa-rss fa-3x secondary-text"></i>
             <h2>scan<span class="secondary-text dot">.</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod reiciendis molestias dolor
-                labore perspiciatis debitis cumque atque. Esse, labore.</p>                            
+            <p>scan the product information and our intelligent virtual assistant will provide you with the product information, allergen information (if any) and 
+                also recommend similar products that may be of interest to you.
+            </p>                            
         </div>
         <div class="rellax" data-rellax-speed="7" data-rellax-xs-speed="3">
             <i class="fas fa-credit-card fa-3x secondary-text"></i>
             <h2>pay<span class="secondary-text dot">.</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod reiciendis molestias dolor
-                labore perspiciatis debitis cumque atque. Esse, labore.</p>                            
+            <p>you can add the product that you have chosen directly into your virtual shopping cart.
+                once your product is in the virtual cart, you can pay for the item directly from your mobile device
+                while standing in the aisle in-store. no need to wait in long queues anymore to pay for your items.
+            </p>                            
         </div>        
     </section>
+
+    <section class="section section-stream">
+        <div class="container">
+            <div style="text-align:center">
+              <h2>GET IN TOUCH</h2>
+              <p>Questions? Want JusTap in your store?</p>
+            </div>
+            <div class="row">
+              <div class="column">
+              </div>
+              <div class="column">
+                  <!-- <form  action="handler.php" method="post"> -->
+                <form action="https://formspree.io/maypajer" method="POST">
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                  <label for="lname">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="Your Email.." required>
+                  <label for="lname">Contact Number</label>
+                  <input type="text" id="phone" name="phone" placeholder="Your Contact Number.." required>              
+                  <label for="lname">Website</label>
+                  <input type="text" id="Website" name="website" placeholder="Your Website.." required>              
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+              <div class="column">
+              </div>          
+            </div>
+          </div>
+    </section>    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
         integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI=" crossorigin="anonymous"></script>
@@ -91,7 +125,7 @@
         <li><a href="#">FAQ</a></li>
         <li><a href="#">Terms of Use</a></li>
         <li><a href="#">Privacy Notice</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="./contact_form.html">Contact Us</a></li>
         <li><a href="#">About Us</a></li>
     </ul>
 </footer>
